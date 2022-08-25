@@ -23,6 +23,7 @@ nav{
     background-image: url(images.jpg);
     box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
     z-index: 1;
+    background-repeat: no-repeat;
 }
 .logo img{
     height: 48px;
