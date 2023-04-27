@@ -105,7 +105,7 @@ a{
     background-color: #23cdaf;
     transition: all ease 0.2s;
 }
-
+/*when screen is below or equal max-width then do the code inside braces*/
 @media only screen and (max-width: 414px){
     .text{
         visibility : collapse;
@@ -114,6 +114,3 @@ a{
         visibility : visible;
     }
 }
-/*.profiles{
-    display:flexbox;
-}*/
