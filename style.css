@@ -107,7 +107,11 @@ a{
 }
 /*when screen is below or equal max-width then do the code inside braces*/
 @media only screen and (max-width: 414px){
-    .main-text{
-        width: 100px;
+    .menu li a:hover{
+        background-color: #23cdaf;
+        color:black;
+        border-radius: 20px;
+        box-shadow: 25px 30px 30px rgba(39,109,119,0.5);
+        transition: all ease 0.2s;
     }
 }
