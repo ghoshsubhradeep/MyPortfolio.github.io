@@ -105,6 +105,15 @@ a{
     background-color: #23cdaf;
     transition: all ease 0.2s;
 }
+
+@media only screen and (max-width: 414px){
+    .text{
+        visibility : collapse;
+    }
+    .phonetext{
+        visibility : visible;
+    }
+}
 /*.profiles{
     display:flexbox;
 }*/
