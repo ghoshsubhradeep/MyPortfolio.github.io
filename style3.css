@@ -63,12 +63,3 @@ ol li a:hover{
 .home-btn:hover .lol{
     opacity: 1;
 }
-/*when screen is below or equal max-width then do the code inside braces*/
-@media only screen and (max-width: 414px){
-    .text{
-        visibility : collapse;
-    }
-    .phonetext{
-        visibility : visible;
-    }
-}
