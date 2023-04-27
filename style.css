@@ -107,8 +107,8 @@ a{
 }
 /*when screen is below or equal max-width then do the code inside braces*/
 @media only screen and (max-width: 414px){
-    .image{
-        height: 170px;
-        width: 150px;
+    *{
+        width : 50%;
+        height : 50%;
     }
 }
