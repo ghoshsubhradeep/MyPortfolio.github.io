@@ -1,0 +1,217 @@
+/* For small screens (up to 768px) */
+*{
+    box-sizing: border-box;
+    /* background-color: lightblue; */
+}
+
+body{
+    margin: 0px;
+    padding: 10px;
+    font: poppins;
+    background-color: lightblue;
+}
+
+
+a{
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+span{
+    opacity: 0;
+}
+
+p{
+    /* background-color: lightblue; */
+    font-size: 20px;
+    font-style: oblique;
+    color: #BDB76B;
+}
+
+ol li a{
+    /* background-color: lightblue; */
+    text-decoration: none;
+    /* width: 50px;
+    height: 25px; */
+    width: 160px;
+    height: 36px;
+    line-height: 5px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgba(200, 39, 39, 0.88);
+    text-shadow: 1px 1px #eb7c49;
+}
+
+ol li a:hover{
+    background-color: #23cdaf;
+    color:white;
+    border-radius: 50px;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.5);
+    transition: all ease 0.2s;
+}
+
+.home-btn{
+    background-color: #1db096;
+    color: white;
+    width: 160px;
+    height: 36px;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.5);
+}
+
+.home-btn:hover{
+    background-color: #23cdaf;
+    transition: all ease 0.2s;
+}
+
+.home-btn:hover .lol{
+    opacity: 1;
+}
+
+
+/* For medium screens (769px to 1024px) */
+@media only screen and (min-width: 769px){
+    *{
+        box-sizing: border-box;
+        /* background-color: lightblue; */
+    }
+body{
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+    font: poppins;
+}
+
+a{
+    /* background-color: lightblue; */
+    text-decoration: none;
+}
+span{
+    opacity: 0;
+}
+p{
+    /* background-color: lightblue; */
+    font-size: 22px;
+    font-style: oblique;
+    color: #BDB76B;
+}
+
+ol li a{
+    /* background-color: lightblue; */
+    text-decoration: none;
+    /* width: 50px;
+    height: 30px; */
+    width: 160px;
+    height: 36px;
+    line-height: 5px;
+    margin: 20px;
+    padding: 20px 22px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgba(200, 39, 39, 0.88);
+    text-shadow: 1px 1px #eb7c49;
+}
+ol li a:hover{
+    background-color: #23cdaf;
+    color:white;
+    border-radius: 50px;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.5);
+    transition: all ease 0.2s;
+}
+.home-btn{
+    background-color: #1db096;
+    color: white;
+    width: 190px;
+    height: 44px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 5px 10px 30px rgba(24,139,119,0.5);
+    }
+}
+
+/* for large screens */
+@media only screen and (min-width: 1025px){
+    *{
+        box-sizing: border-box;
+        /* background-color: lightblue; */
+    }
+    body{
+        background-color: lightblue;
+        margin: 0px;
+        padding: 20px;
+        font: poppins;
+    }
+
+    a{
+        /* background-color: lightblue; */
+        text-decoration: none;
+    }
+    span{
+        opacity: 0;
+    }
+    p{
+        /* background-color: lightblue; */
+        font-size: 30px;
+        font-style: oblique;
+        color: #BDB76B;
+        margin: 20px 0;
+    }
+
+    ol li a{
+        /* background-color: lightblue; */
+        text-decoration: none;
+        /* width: 50px;
+        height: 40px; */
+        width: 160px;
+        height: 36px;
+        line-height: 5px;
+        margin: 20px;
+        padding: 20px 32px;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: rgba(200, 39, 39, 0.88);
+        text-shadow: 1px 1px #eb7c49;
+    }
+
+    ol li a:hover{
+        background-color: #23cdaf;
+        color:white;
+        border-radius: 50px;
+        box-shadow: 5px 10px 30px rgba(24,139,119,0.5);
+        transition: all ease 0.2s;
+    }
+
+    .home-btn{
+        background-color: #1db096;
+        color: white;
+        width: 250px;
+        height: 54px;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        box-shadow: 5px 10px 30px rgba(24,139,119,0.5);
+    }
+
+    .home-btn:hover{
+        background-color: #23cdaf;
+        transition: all ease 0.2s;
+    }
+
+    .home-btn:hover .lol{
+        opacity: 1;
+    }
+}
