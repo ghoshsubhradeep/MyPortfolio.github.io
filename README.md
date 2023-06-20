@@ -6,14 +6,21 @@
 
 ## Files' Descriptions =>
 - ### index.html :
-  Main oage for my portfolio website
+  &nbsp;&nbsp;Main oage for my portfolio website
 - ### education.html :
-  Handles my educational details
-- ### project.html : Handles details aboout my projects done so far
-- ### certificates.html : Presents certificates achieved so far
-- ### contact.html : Presents my contact details 
-- ### style_index.css : For applying interactive UI to index.html using bootstrap and css for responsiveness
-- ### style_education.css : For applying interactive UI to education.html using bootstrap and css for responsiveness
-- ### style_contact.css : For applying interactive UI to contact.html using bootstrap and css for responsiveness
-- ### style_PCS.css : For applying interactive UI to certificates.html and projects.html using bootstrap and css for responsiveness
+  &nbsp;&nbsp;Handles my educational details
+- ### project.html :
+  &nbsp;&nbsp;Handles details aboout my projects done so far
+- ### certificates.html :
+  &nbsp;&nbsp;Presents certificates achieved so far
+- ### contact.html :
+  &nbsp;&nbsp;Presents my contact details 
+- ### style_index.css :
+  &nbsp;&nbsp;For applying interactive UI to index.html using bootstrap and css for responsiveness
+- ### style_education.css :
+  &nbsp;&nbsp;For applying interactive UI to education.html using bootstrap and css for responsiveness
+- ### style_contact.css :
+  &nbsp;&nbsp;For applying interactive UI to contact.html using bootstrap and css for responsiveness
+- ### style_PCS.css :
+  &nbsp;&nbsp;For applying interactive UI to certificates.html and projects.html using bootstrap and css for responsiveness
 
