@@ -5,8 +5,10 @@
 #### This website describes myself using HTML and CSS interactively.
 
 ## Files' Descriptions =>
-- ### index.html : Main oage for my portfolio website
-- ### education.html : Handles my educational details
+- ### index.html :
+  Main oage for my portfolio website
+- ### education.html :
+  Handles my educational details
 - ### project.html : Handles details aboout my projects done so far
 - ### certificates.html : Presents certificates achieved so far
 - ### contact.html : Presents my contact details 
