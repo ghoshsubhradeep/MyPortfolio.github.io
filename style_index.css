@@ -61,7 +61,7 @@ nav{
 .menu li a:hover{
     background-color: #23cdaf;
     color: white;
-    border-radius: 8px;   /* changed */
+    border-radius: 12px;   /* changed */
     border: 2px solid white;
     box-shadow: 15px 20px 40px rgba(24,139,119,0.2);
     transition: all ease 0.2s;
