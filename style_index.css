@@ -60,8 +60,8 @@ nav{
 }
 .menu li a:hover{
     background-color: #23cdaf;
-    color:white;
-    border-radius: 100%;
+    color: white;
+    border-radius: 8px;   /* changed */
     border: 2px solid white;
     box-shadow: 15px 20px 40px rgba(24,139,119,0.2);
     transition: all ease 0.2s;
@@ -171,7 +171,7 @@ li {
 .lists a:hover{
     text-decoration: none;
     background-color: #23cdaf;
-    border-radius: 100%;
+    border-radius: 8px;   /* changed */
     border: 2px solid white;
     transition: all ease 0.2s;
 }
