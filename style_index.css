@@ -170,7 +170,7 @@ li {
 
 .lists a:hover{
     text-decoration: none;
-    background-color: #23cdaf;
+    /*background-color: #23cdaf;*/
     border-radius: 8px;   /* changed */
     border: 2px solid white;
     transition: all ease 0.2s;
